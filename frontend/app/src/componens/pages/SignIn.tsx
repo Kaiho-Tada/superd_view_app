@@ -79,7 +79,7 @@ export const SignIn: FC = memo(() => {
           <Input placeholder="メールアドレス" value={email} onChange={onChangeEmail} />
           <Input placeholder="パスワード" type="password" value={password} onChange={onChangePassword} />
           <PrimaryButton loading={loading} isDisabled={email === "" || password === ""} onClick={onClickLogin}>
-            Login
+            ログイン
           </PrimaryButton>
         </Stack>
       </Box>
